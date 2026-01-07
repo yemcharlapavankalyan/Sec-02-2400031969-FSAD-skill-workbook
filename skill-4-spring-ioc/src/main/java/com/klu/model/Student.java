@@ -1,5 +1,8 @@
 package com.klu.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Student {
 
     private int studentId;
@@ -8,11 +11,9 @@ public class Student {
     private int year;
 
     // Constructor Injection
-    public Student(int studentId, String name, String course, int year) {
-        this.studentId = studentId;
-        this.name = name;
-        this.course = course;
-        this.year = year;
+    public Student() {
+        this.studentId = 102;
+        this.name = "Pavan";
     }
 
     // Setter Injection
