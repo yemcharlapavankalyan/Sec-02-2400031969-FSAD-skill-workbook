@@ -1,3 +1,9 @@
 .DS_Store
 .metadata/
 *.log
+**/target/
+**/.settings/
+**/.project
+**/.classpath
+**/node_modules/
+bin/
